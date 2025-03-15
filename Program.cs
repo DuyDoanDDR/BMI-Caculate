@@ -11,7 +11,7 @@ while (true)
     else Console.WriteLine("Enter Height as a positive number which greater than 0");
 Console.WriteLine("Enter Weight as kilograms :");
 while (true)
-    if (double.TryParse(Console.ReadLine(), out weight) && weight >0)
+    if (double.TryParse(Console.ReadLine(), out weight) && weight > 0)
     {
         break;
     }
